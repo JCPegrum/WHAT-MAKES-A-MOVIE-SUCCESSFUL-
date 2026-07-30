@@ -5,7 +5,9 @@ Initial dataset inspection and cleaning carried out in python.
 
 # RESULTS FROM EDA 
 
-Running the python code from the repo labeled 'EDA' , the uncleaned dataset is found to have 45466 observations and 24 variables. 
+To run this section, download 'movie_metadata' and copy code from 'EDA_CODE' file into google collab.
+
+The uncleaned dataset is found to have 45466 observations and 24 variables. 
 
 ## DATA TYPES 
 19 of the varibles have datatype 'object' , suggesting text values . 5 vairbles have data type 'float 64' suggesting decimal numbers. 
