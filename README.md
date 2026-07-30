@@ -58,5 +58,17 @@ The table below shows the summary statistics for the numerical variables. Lookin
 
 # CLEANING THE DATA
 
+## removal of duplicates 
+
+the removal of duplicates has resulted in a new observation count of 45499 
+
+## Removal of variables
+
+EDA has revealed some of the variables to contain a majority of missing values or the same value, resulting in low explanatory power. As a result these variables are removed. 
+
+to begin with unnamed columns were removed. 24 variables remain, suggesting this is not an issue. 
+
+## coversion of variables
 
 
+the variables look numerical however the results of EDA produced text values (object). As a result these variables must be fixed, with any non-numrical inputs being coverted into missing values. 
