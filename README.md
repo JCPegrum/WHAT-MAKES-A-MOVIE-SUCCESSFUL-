@@ -68,7 +68,15 @@ EDA has revealed some of the variables to contain a majority of missing values o
 
 to begin with unnamed columns were removed. 24 variables remain, suggesting this is not an issue. 
 
+
 ## coversion of variables
 
 
 the variables look numerical however the results of EDA produced text values (object). As a result these variables must be fixed, with any non-numrical inputs being coverted into missing values. 
+
+## Missing values
+
+To explore missing values, look back to the initial table in EDA section. The main approach used in removing missing data was to remove any observations missing multiple values in key variables, such as Title and popularity. 
+
+# Removal of variables
+Another factor that aids the removal of missing values is the exploration of the variables. EDA showed some of the variables contained majority missing values. Choosing a threshold of 70% missing values , majority missing value variables were removed, resulting in the removal of variables 'belongs_to_collection' and 'homepage' .             
